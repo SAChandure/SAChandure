@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test b is Running]]>
+    </line>
+    <line>
+      <![CDATA[Test f is Running]]>
+    </line>
+    <line>
+      <![CDATA[Test b is Running]]>
+    </line>
+    <line>
+      <![CDATA[Test d is Running]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-17T16:49:24 IST" name="Suite" finished-at="2021-12-17T16:49:24 IST" duration-ms="137">
+    <groups>
+      <group name="regression">
+        <method signature="DemoTest3.b()[pri:0, instance:TestNG_Practice.DemoTest3@37d4349f]" name="b" class="TestNG_Practice.DemoTest3"/>
+        <method signature="DemoTest3.f()[pri:0, instance:TestNG_Practice.DemoTest3@37d4349f]" name="f" class="TestNG_Practice.DemoTest3"/>
+        <method signature="DemoTest4.b()[pri:0, instance:TestNG_Practice.DemoTest4@659499f1]" name="b" class="TestNG_Practice.DemoTest4"/>
+        <method signature="DemoTest4.d()[pri:0, instance:TestNG_Practice.DemoTest4@659499f1]" name="d" class="TestNG_Practice.DemoTest4"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2021-12-17T16:49:24 IST" name="Test" finished-at="2021-12-17T16:49:24 IST" duration-ms="137">
+      <class name="TestNG_Practice.DemoTest3">
+        <test-method signature="b()[pri:0, instance:TestNG_Practice.DemoTest3@37d4349f]" started-at="2021-12-17T16:49:24 IST" name="b" finished-at="2021-12-17T16:49:24 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test b is Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="f()[pri:0, instance:TestNG_Practice.DemoTest3@37d4349f]" started-at="2021-12-17T16:49:24 IST" name="f" finished-at="2021-12-17T16:49:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test f is Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestNG_Practice.DemoTest3 -->
+      <class name="TestNG_Practice.DemoTest4">
+        <test-method signature="b()[pri:0, instance:TestNG_Practice.DemoTest4@659499f1]" started-at="2021-12-17T16:49:24 IST" name="b" finished-at="2021-12-17T16:49:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test b is Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="d()[pri:0, instance:TestNG_Practice.DemoTest4@659499f1]" started-at="2021-12-17T16:49:24 IST" name="d" finished-at="2021-12-17T16:49:24 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test d is Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- d -->
+      </class> <!-- TestNG_Practice.DemoTest4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
